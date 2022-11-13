@@ -12,8 +12,9 @@ class DaemonServer(server.BaseHTTPRequestHandler):
         data = self.rfile.read(content_len)
         self.send_header("Content-type", "application/json")
         self.end_headers()
-        print(data)
-        self.wfile.write(bytes(data))
+        fdata = str(data)[2:][:-1]
+        print(fdata)
+        self.wfile.write(data)
 
 server=server.HTTPServer(("localhost", port), DaemonServer)
 
