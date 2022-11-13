@@ -1,0 +1,20 @@
+{
+  "name": "v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pizzasoft-us/Daemon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pizzasoft-us/Daemon/issues"
+  },
+  "homepage": "https://github.com/pizzasoft-us/Daemon#readme"
+}
